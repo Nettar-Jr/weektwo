@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 20px auto;
+    width: 50%;
+}
+
+.container{
+    background-color: mediumslateblue;
+    text-align: center;
+    padding: 20px;
+    color: indigo;
+}
+
+.inline{
+    color: brown;
+    font-family: monospace;
+    text-align: center;
+}
+
+.signup:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.signUp{
+    font-size: xx-large;
+}
+
+.Login{
+    font-size: large;
+}
+
+.Login:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+#inputfield{
+    width: 70%;
+}
+
+#submit{
+    padding: 5px;
+    color: red;
+    background-color: darkgray;
+    border: none;
+}
+
+#submit:hover{
+    background-color: gray;
+}
